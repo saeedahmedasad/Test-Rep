@@ -2,11 +2,11 @@
 
 int main(void)
 {
-    int number;
+    double number;
     printf("This Program Will Check whether the Number is Positive or Negative!\n");
 
     printf("Enter Your Number");
-    scanf("%d", &number);
+    scanf("%lf", &number);
 
     if(number<0)
     {
